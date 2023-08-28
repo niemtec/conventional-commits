@@ -1,6 +1,6 @@
 name: Publish changes to the extension
 
-on: workflow_run
+on: workflow_dispatch
 
 jobs:
   build:
