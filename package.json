@@ -2,19 +2,20 @@
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "conventional-commits",
   "title": "Conventional Commits",
-  "description": "Provides a list and description of conventional commit prefixes that can be inserted into the active window.",
+  "description": "Provides a list of conventional commits prefixes and descriptions that can be inserted into your active window",
   "icon": "../assets/command-icon.png",
   "author": "niemtec",
   "categories": [
-    "Developer Tools"
+    "Developer Tools",
+    "Documentation"
   ],
   "license": "MIT",
   "commands": [
     {
       "name": "index",
-      "title": "Conventional Commits",
+      "title": "Insert Conventional Commit Prefix",
       "subtitle": "Insert a conventional commit prefix into your current window",
-      "description": "Provides a list of prefixes and their descriptions of conventional commits that can be inserted into the active window.",
+      "description": "Provides a list of conventional commits prefixes and descriptions that can be inserted into your active window",
       "mode": "view"
     }
   ],
