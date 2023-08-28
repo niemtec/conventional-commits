@@ -14,73 +14,73 @@ class CommitItem {
   }
 }
 
-let listItems: CommitItem[] = [
+const listItems: CommitItem[] = [
   {
     prefix: "feat: ",
     title: "Feature",
     subtitle: "Introduces a new feature to the codebase",
-    icon: "../assets/feature.png"
+    icon: "../assets/feature.png",
   },
   {
     prefix: "fix: ",
     title: "Bug Fix",
     subtitle: "Fixes a bug in the code",
-    icon: "../assets/fix.png"
+    icon: "../assets/fix.png",
   },
   {
     prefix: "docs: ",
     title: "Documentation",
     subtitle: "Documentation-only changes",
-    icon: "../assets/docs.png"
+    icon: "../assets/docs.png",
   },
   {
     prefix: "style: ",
     title: "Style",
     subtitle: "Changes that do not affect the meaning of code i.e. formatting",
-    icon: "../assets/style.png"
+    icon: "../assets/style.png",
   },
   {
     prefix: "refactor: ",
     title: "Code Refactoring",
     subtitle: "A code change that neither fixes a bug nor adds a feature",
-    icon: "../assets/refactor.png"
+    icon: "../assets/refactor.png",
   },
   {
     prefix: "perf: ",
     title: "Performance Improvements",
     subtitle: "A code change that improves performance",
-    icon: "../assets/perf.png"
+    icon: "../assets/perf.png",
   },
   {
     prefix: "test: ",
     title: "Tests",
     subtitle: "Adding missing tests or correcting existing ones",
-    icon: "../assets/test.png"
+    icon: "../assets/test.png",
   },
   {
     prefix: "build: ",
     title: "Builds",
     subtitle: "Changes that affect the build system or external dependencies",
-    icon: "../assets/build.png"
+    icon: "../assets/build.png",
   },
   {
     prefix: "ci: ",
     title: "Continuous Integration",
     subtitle: "Changes to the CI configuration files and scripts",
-    icon: "../assets/ci.png"
+    icon: "../assets/ci.png",
   },
   {
     prefix: "chore: ",
     title: "Chores",
     subtitle: "Other changes that do not modify src or test files",
-    icon: "../assets/chore.png"
+    icon: "../assets/chore.png",
   },
   {
     prefix: "revert: ",
     title: "Reverts",
     subtitle: "Reverts a previous commit",
-    icon: "../assets/revert.png"
-  }
+    icon: "../assets/revert.png",
+  },
 ];
 
 export default function Command() {
