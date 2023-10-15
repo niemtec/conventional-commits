@@ -3,6 +3,8 @@
 ## [Display Labels] - 2023-10-15
 
 - [FEAT] Added feature to display prefix as a tag next to each of the entries in the list
+- [REFACTOR] Updated the structure of conventional commit descriptions and introduced headings
+- [DOCS] Updated screenshots and improved some doc structure
 
 ## [New Command] - 2023-09-10
 
