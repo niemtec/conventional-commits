@@ -6,7 +6,7 @@ class CommitItem {
   subtitle: string;
   icon: string;
 
-  constructor(prefix: string, title: string, subtitle: string, icon: string,) {
+  constructor(prefix: string, title: string, subtitle: string, icon: string) {
     this.prefix = prefix;
     this.title = title;
     this.subtitle = subtitle;
