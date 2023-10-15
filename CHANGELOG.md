@@ -1,5 +1,9 @@
 # Conventional Commits Changelog
 
+## [Display Labels] - 2023-10-15
+
+- [FEAT] Added feature to display prefix as a tag next to each of the entries in the list
+
 ## [New Command] - 2023-09-10
 
 - [FEAT] Add feature to view conventional commit message structure
